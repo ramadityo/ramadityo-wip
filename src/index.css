@@ -1,0 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Satoshi', sans-serif;
+  --font-pixel: 'Pixelify Sans', sans-serif;
+}
+
+html {
+  font-family: var(--font-sans);
+}
