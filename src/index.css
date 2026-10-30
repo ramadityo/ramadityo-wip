@@ -7,6 +7,10 @@
   --font-pixel: 'Pixelify Sans', sans-serif;
 }
 
+/* Side-by-side hero: the character is drawn full height, so it only leaves room for text when the
+   viewport is wide relative to its height (desktop, not iPad landscape) */
+@custom-variant wide (@media (width >= 64rem) and (min-aspect-ratio: 3/2));
+
 html {
   font-family: var(--font-sans);
 }
